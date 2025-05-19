@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <!--Bu kodlar Emin Kişioğlu tarafından yazıldı --> 
 
@@ -197,4 +198,205 @@
 </html>
 
 
+=======
+
+<!--Bu kodlar Emin Kişioğlu tarafından yazıldı --> 
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Referanslarımız</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      position: relative;
+      z-index: 0;
+    }
+
+    .background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('assets/references-bg.jpg') center center no-repeat;
+      background-size: cover;
+      z-index: -1;
+    }
+
+    .reference-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 24px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 30px;
+      color: white;
+      font-weight: 500;
+      font-size: 1rem;
+      text-decoration: none;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+      transition: all 0.3s ease-in-out;
+      z-index: 1000;
+    }
+
+    .reference-button:hover {
+      background: rgba(255, 255, 255, 0.25);
+      transform: scale(1.05);
+    }
+
+    .reference-button .arrow {
+      margin-left: 10px;
+      font-size: 1.2rem;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 100px;
+      font-size: 2rem;
+      animation: fadeInDown 1s ease-in-out;
+    }
+
+    .reference-group {
+      background: rgba(30, 30, 30, 0.6);
+      backdrop-filter: blur(16px);
+      border-radius: 16px;
+      text-align: center;
+      animation: fadeInUp 1s ease-in-out;
+      padding: 1.5rem;
+      margin: 1rem;
+    }
+
+    @media (min-width: 768px) {
+      .reference-group {
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 2rem;
+      }
+    }
+
+    .reference-group h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+
+    .logo-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      justify-items: center;
+      align-items: center;
+    }
+
+    @media (min-width: 600px) {
+      .logo-grid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 28px;
+      }
+    }
+
+    .logo-grid img {
+      width: 100%;
+      max-width: 180px;
+      object-fit: contain;
+      filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.4));
+      transition: transform 0.3s ease;
+      display: block;
+    }
+
+    .logo-grid img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      background: rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(6px);
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+
+  <!-- Menüye Dön Butonu -->
+  <a href="index.html" class="reference-button">
+    <span data-key="references">Back To Menu</span>
+    <span class="arrow">&rarr;</span>
+  </a>
+
+  <h1>References</h1>
+
+  <!-- Devlet Kurumları -->
+  <section class="glass reference-group">
+    <h2>Government Agencies</h2>
+    <div class="logo-grid">
+      <img src="assets/logos/logo1.png" alt="logo1">
+      <img src="assets/logos/logo2.png" alt="logo2">
+      <img src="assets/logos/logo3.png" alt="logo3">
+      <img src="assets/logos/logo4.png" alt="logo4">
+      <img src="assets/logos/logo5.png" alt="logo5">
+      <img src="assets/logos/logo6.png" alt="logo6">
+    </div>
+  </section>
+
+  <!-- Şirketler -->
+  <section class="glass reference-group">
+    <h2>Companies</h2>
+    <div class="logo-grid">
+      <img src="assets/logos/logo7.png" alt="logo7">
+      <img src="assets/logos/logo8.png" alt="logo8">
+      <img src="assets/logos/logo9.png" alt="logo9">
+      <img src="assets/logos/logo10.png" alt="logo10">
+      <img src="assets/logos/logo11.png" alt="logo11">
+      <img src="assets/logos/logo12.png" alt="logo12">
+      <img src="assets/logos/logo13.png" alt="logo13">
+      <img src="assets/logos/logo14.png" alt="logo14">
+      <img src="assets/logos/logo15.png" alt="logo15">
+      <img src="assets/logos/logo16.png" alt="logo16">
+      <img src="assets/logos/logo17.png" alt="logo17">
+    </div>
+  </section>
+
+  <!-- Franchising -->
+  <section class="glass reference-group">
+    <h2>Franchising</h2>
+    <div class="logo-grid">
+      <img src="assets/logos/logo18.png" alt="logo18">
+      <img src="assets/logos/logo19.png" alt="logo19">
+    </div>
+  </section>
+
+  <!-- Eğitim -->
+  <section class="glass reference-group">
+    <h2>Training</h2>
+    <div class="logo-grid">
+      <img src="assets/logos/logo20.png" alt="logo20">
+      <img src="assets/logos/logo21.png" alt="logo21">
+      <img src="assets/logos/logo22.png" alt="logo22">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <span data-key="footer">© 2024 4AK Danışmanlık. Tüm hakları saklıdır.</span>
+  </footer>
+
+</body>
+</html>
+
+
+>>>>>>> 8d4126ff220bd993ff4201e235b52519f1e4c405
 <!--Bu kodlar Emin Kişioğlu tarafından yazıldı --> 
